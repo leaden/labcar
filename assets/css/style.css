@@ -1,0 +1,56 @@
+*{margin: 0;
+	padding: 0;
+}
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#formulario{
+	background-image: url(../img/taxi.jpg);
+    background-size: cover;
+	background-position: 0 92%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.navbar.navbar-default{
+background-color: white;
+margin: 0;
+}
+
+.list-menu ul li{
+	padding: 1em;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: gray;
+	font-size: 18px;
+}
+
+/*.navbar-default .navbar-nav>li>a:hover{
+	color: white;
+}
+*/
+
+.navbar-brand{
+	display: flex;
+    justify-content: flex-start;
+    padding-right: 21%;
+}
+
+
+#rectangulo{
+
+	width: 510px;
+	height: 400px;
+	float: left;
+	background: #f7b617;
+	margin-top: 250px;
+	padding:50px;
+	box-sizing: border-box;
+}
+
+#iphone{
+	background-color: #f7b617;
+}
