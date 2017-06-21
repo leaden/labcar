@@ -10,7 +10,6 @@ body{
 	background-image: url(../img/taxi.jpg);
     background-size: cover;
 	background-position: 0 92%;
-    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
@@ -43,14 +42,45 @@ margin: 0;
 #rectangulo{
 
 	width: 510px;
-	height: 400px;
+	height: 300px;
 	float: left;
 	background: #f7b617;
 	margin-top: 250px;
 	padding:50px;
 	box-sizing: border-box;
+
 }
 
 #iphone{
 	background-color: #f7b617;
+}
+
+/*tercera seccion*/
+
+#conduce{
+	background-image: url(../img/conduce.jpg);
+    background-size: cover;
+	background-position:0 70%;
+
+    background-repeat: no-repeat;
+}
+
+#rectangulo2{
+   width: 300px;
+	height: 500px;
+	float: left;
+	background: transparent;
+	
+}
+
+#tarifa{
+	background-color: #f7b617;
+	height: 70vh;
+}
+
+#map{
+   width: 40%;
+   height: 40vh;
+   border:2px solid black;
+   padding:20px;
 }
