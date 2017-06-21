@@ -11,7 +11,17 @@ body{
     background-size: cover;
 	background-position: 0 92%;
     background-repeat: no-repeat;
-    padding: 130px;
+    padding: 50px;
+}
+
+#formulario img{
+	width: 100px;
+	padding:10px;
+}
+
+#formulario button{
+	background-color: white;
+	color :black;
 }
 
 .navbar.navbar-default{
@@ -47,6 +57,8 @@ margin: 0;
 	background: #f7b617;
 	margin-top: 250px;
 	padding:50px;
+	margin-bottom: 80px;
+	color: white;
 
 }
 
@@ -60,7 +72,6 @@ margin: 0;
 	background-image: url(../img/conduce.jpg);
     background-size: cover;
 	background-position:0 70%;
-
     background-repeat: no-repeat;
 }
 
@@ -70,6 +81,7 @@ margin: 0;
 	background: rgba(0, 0, 0, 0.5);
 	padding:50px;
 	color: white;
+	/*margin-left:105px;*/
 	
 }
 
