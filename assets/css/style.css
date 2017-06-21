@@ -11,6 +11,7 @@ body{
     background-size: cover;
 	background-position: 0 92%;
     background-repeat: no-repeat;
+    padding: 130px;
 }
 
 .navbar.navbar-default{
@@ -43,11 +44,9 @@ margin: 0;
 
 	width: 510px;
 	height: 300px;
-	float: left;
 	background: #f7b617;
 	margin-top: 250px;
 	padding:50px;
-	box-sizing: border-box;
 
 }
 
@@ -68,9 +67,14 @@ margin: 0;
 #rectangulo2{
    width: 300px;
 	height: 500px;
-	float: left;
-	background: transparent;
+	background: rgba(0, 0, 0, 0.5);
+	padding:50px;
+	color: white;
 	
+}
+
+#rectangulo2 button{
+	background: #f7b617;
 }
 
 #tarifa{
@@ -86,5 +90,5 @@ margin: 0;
 }
 
 #footer{
-	background-color: black;
+	background-color: #2b2b2b;
 }
