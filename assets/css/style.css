@@ -3,15 +3,39 @@
 }
 
 body{
-    font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
 }
+
+/*seccion nav y logo*/
+.navbar.navbar-default{
+	background-color: white;
+	margin: 0;
+}
+
+.list-menu ul li{
+	padding: 1em;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: gray;
+	font-size: 18px;
+}
+
+.navbar-brand{
+	display: flex;
+	justify-content: flex-start;
+	padding-right: 21%;
+}
+
+/*primera seccion*/
+
 
 #formulario{
 	background-image: url(../img/taxi.jpg);
-    background-size: cover;
+	background-size: cover;
 	background-position: 0 92%;
-    background-repeat: no-repeat;
-    padding: 50px;
+	background-repeat: no-repeat;
+	padding: 50px;
 }
 
 #formulario img{
@@ -24,59 +48,53 @@ body{
 	color :black;
 }
 
-.navbar.navbar-default{
-background-color: white;
-margin: 0;
-}
-
-.list-menu ul li{
-	padding: 1em;
-}
-
-.navbar-default .navbar-nav>li>a {
-	color: gray;
-	font-size: 18px;
-}
-
-/*.navbar-default .navbar-nav>li>a:hover{
-	color: white;
-}
-*/
-
-.navbar-brand{
-	display: flex;
-    justify-content: flex-start;
-    padding-right: 21%;
-}
-
+/*segunda seccion*/
 
 #rectangulo{
-
-	width: 510px;
+	width: 420px;
 	height: 300px;
 	background: #f7b617;
 	margin-top: 250px;
 	padding:50px;
-	margin-bottom: 80px;
+	margin-bottom: 90px;
 	color: white;
-
 }
 
 #iphone{
 	background-color: #f7b617;
+	width: 
+}
+
+.caja-blanca{
+  width: 1030px;
+  padding-left: 100px;
+  padding-right: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 1px solid white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.texto{
+	color: white;
+	padding: 40px;
+	padding-right: 100px;
 }
 
 /*tercera seccion*/
 
 #conduce{
 	background-image: url(../img/conduce.jpg);
-    background-size: cover;
+	background-size: cover;
 	background-position:0 70%;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 }
 
 #rectangulo2{
-   width: 300px;
+	width: 300px;
 	height: 500px;
 	background: rgba(0, 0, 0, 0.5);
 	padding:50px;
@@ -89,18 +107,89 @@ margin: 0;
 	background: #f7b617;
 }
 
+/*seccion tarifa*/
+
 #tarifa{
 	background-color: #f7b617;
 	height: 70vh;
+	color: white;
 }
 
 #map{
-   width: 40%;
-   height: 40vh;
-   border:2px solid black;
-   padding:20px;
+	width: 40%;
+	height: 50vh;
+	border:1px solid white;
+	padding:20px;
+	margin-top: 50px;
 }
+
+.caja1 input{
+	background: transparent;
+	border: 1px solid white;
+	width: 215px;
+}
+
+.caja1{
+	margin-bottom: 30px;
+}
+
+.caja1 img{
+	margin-right: 10px;
+}
+.caja2 input{
+	background: transparent;
+	border: 1px solid white;
+	width: 215px;
+}
+
+.caja2 img{
+  margin-right: 10px;
+}
+
+#tarifa button{
+	margin-top: 20px;
+	margin-left:50px;
+}
+
+#todo{
+	margin-left:50px;
+}
+
+
+/*seccion footer*/
 
 #footer{
 	background-color: #2b2b2b;
+
+}
+
+#footer img{
+	margin-top: 20px;
+}
+
+.footer-ul li a{
+	color: white;
+}
+
+.footer-ul li{
+	list-style: none;
+
+}
+
+#redes i{
+	color: white;
+
+}
+
+#redes{
+	padding-top: 25px;
+}
+
+#footer2{
+	color: white;
+}
+
+.logofooter{
+	padding-bottom:0px;
+
 }
